@@ -25,10 +25,21 @@ const GlobalStyles = createGlobalStyle`
 
   html, body {
     height: 100%;
+    background: var(--background);
+    color: var(--white);
   }
 
   body {
     font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  p {
+    font-size: 2rem;
+    line-height: var(--md);
+  }
+
+  a {
+    color: var(--highlight);
   }
 `;
 
